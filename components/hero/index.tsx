@@ -43,7 +43,7 @@ export const Hero = () => {
                         display: 'inline',
                      }}
                   >
-                     The modern landing page{' '}
+                     Landing page{' '}
                   </Text>
                   <Text
                      h1
@@ -60,7 +60,7 @@ export const Hero = () => {
                      }}
                      color="primary"
                   >
-                     React developers
+                     THE BOSS GYM
                   </Text>
                </Box>
 
@@ -72,8 +72,9 @@ export const Hero = () => {
                   size={'$lg'}
                   span
                >
-                  The easiest way to build React Landing page in seconds. Save
-                  time and focus on your project.
+                  {/* gym quote */}
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+                  voluptatum, quibusdam, quos, quas voluptates voluptatibus                   
                </Text>
 
                <Flex
@@ -102,7 +103,7 @@ export const Hero = () => {
                         alignItems: 'center',
                      }}
                   >
-                     <CheckIcon /> No credit card required.
+                     <CheckIcon /> Fitness Training.
                   </Flex>
                   <Flex
                      css={{
@@ -110,7 +111,7 @@ export const Hero = () => {
                         alignItems: 'center',
                      }}
                   >
-                     <CheckIcon /> 14-day free trial.
+                     <CheckIcon /> Cardio Program.
                   </Flex>
                   <Flex
                      css={{
@@ -118,7 +119,7 @@ export const Hero = () => {
                         alignItems: 'center',
                      }}
                   >
-                     <CheckIcon /> Cancel anytime.
+                     <CheckIcon /> Personal Trainer.
                   </Flex>
                </Flex>
             </Box>
@@ -130,7 +131,7 @@ export const Hero = () => {
                   },
                }}
             >
-               <img src="mock.png" />
+               <img src="mock.jpg" />
             </Box>
          </Flex>
          <Divider
