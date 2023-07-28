@@ -13,13 +13,14 @@ import {Plans} from '../components/plans';
 import {Faq} from '../components/faq';
 import {Trial} from '../components/trial';
 import {Footer} from '../components/footer';
+import {Construstion} from '../components/construstion';
 
 const Home: NextPage = () => {
    return (
       <Layout>
-         <Nav />
+         {/* <Nav /> */}
          <Box as="main">
-            <Hero />
+            {/* <Hero />
             <Trusted />
             <Features1 />
             <Features2 />
@@ -29,7 +30,8 @@ const Home: NextPage = () => {
             <Plans />
             <Faq />
             <Trial />
-            <Footer />
+            <Footer /> */}
+            <Construstion />
          </Box>
       </Layout>
    );
