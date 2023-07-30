@@ -25,13 +25,12 @@ export const Nav = () => {
         "& .nextui-navbar-container": {
           background: "$background",
           borderBottom: "none",
-          display: "flex",
         },
       }}
     >
       <Navbar.Brand>
         <AcmeLogo />
-        <Text b color="inherit" hideIn="xs">
+        <Text b color="inherit" >
           THE BOSS GYM
         </Text>
         <Navbar.Content
@@ -123,7 +122,13 @@ export const Nav = () => {
           <Navbar.Link href="#">Contact</Navbar.Link>
         </Navbar.Content>
 
-        <Navbar.Toggle aria-label="toggle navigation" showIn="xs" className=""/>
+{/* Align Navbar.Toggle right corner  */}
+        <Navbar.Toggle aria-label="toggle navigation" showIn="xs" 
+        css={{
+          position: "absolute",
+          right: "1rem",
+        }}
+        />
       </Navbar.Brand>
 
       <Navbar.Collapse>
@@ -133,6 +138,7 @@ export const Nav = () => {
               color="inherit"
               css={{
                 minWidth: "100%",
+                justifyContent: "center",
               }}
               href="#"
             >
