@@ -77,7 +77,7 @@ export const Hero = () => {
                   voluptatum, quibusdam, quos, quas voluptates voluptatibus                   
                </Text>
 
-               <Flex
+               {/* <Flex
                   css={{
                      gap: '$8',
                      pt: '$4',
@@ -86,7 +86,7 @@ export const Hero = () => {
                >
                   <Input placeholder="Enter your email address" size="lg" />
                   <Button>Start Free Trial</Button>
-               </Flex>
+               </Flex> */}
                <Flex
                   wrap={'wrap'}
                   css={{
