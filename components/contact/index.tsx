@@ -2,10 +2,11 @@ import {Button, Divider, Text} from '@nextui-org/react';
 import React from 'react';
 import {Flex} from '../styles/flex';
 
-export const Trial = () => {
+export const Contact = () => {
    return (
       <>
          <Flex
+         id='contact'
             css={{
                py: '$20',
                px: '$6',
@@ -14,7 +15,7 @@ export const Trial = () => {
             direction={'column'}
             align={'center'}
          >
-            <Text h3>Start your free trials</Text>
+            <Text h3>Contact</Text>
             <Text
                span
                css={{

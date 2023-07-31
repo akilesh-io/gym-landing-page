@@ -4,10 +4,11 @@ import { CheckIcon } from '../icons/CheckIcon';
 import { Box } from '../styles/box';
 import { Flex } from '../styles/flex';
 
-export const Plans = () => {
+export const Membership = () => {
   return (
     <>
       <Flex
+      id='membership'
         css={{ py: '$20', gap: '1rem', px: '$6' }}
         justify={'center'}
         wrap={'wrap'}
