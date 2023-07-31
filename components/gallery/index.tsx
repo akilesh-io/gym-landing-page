@@ -1,4 +1,4 @@
-import { Button, Divider, Grid, Text } from "@nextui-org/react";
+import { Container, Divider, Grid, Text } from "@nextui-org/react";
 import React from "react";
 import { AcmeLogo } from "../navbar/logo";
 import { Flex } from "../styles/flex";
@@ -8,7 +8,7 @@ export const Gallery = () => {
   return (
     <>
       <Flex
-      id="gallery"
+        id="gallery"
         direction={"column"}
         align={"center"}
         css={{
@@ -20,19 +20,48 @@ export const Gallery = () => {
         }}
       >
         <Text h2 css={{ textAlign: "center" }}>
-          Trusted by over 1000+
+          Gallery
         </Text>
         <Text
           css={{
             color: "$accents8",
             maxWidth: "800px",
             textAlign: "center",
+            paddingBottom: "20px",
           }}
           weight="normal"
           size={"$lg"}
         >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          We have worked with many peoples and have a lot of experience in this
+          field. Here are some of our success.
+        </Text>
+      </Flex>
+
+      <Container
+        css={{
+          pt: "$20",
+          px: "$6",
+          "@lg": {
+            px: "$64",
+          },
+        }}
+      >
+      <PhotoGallery />
+      </Container>
+
+      <Flex
+        direction={"column"}
+        align={"center"}
+        css={{
+          pt: "$20",
+          px: "$6",
+          "@md": {
+            px: "$64",
+          },
+        }}
+      >
+        <Text h3 css={{ textAlign: "center" }}>
+          Our Trainers
         </Text>
         <Grid.Container
           gap={6}
@@ -48,12 +77,11 @@ export const Gallery = () => {
             },
           }}
         >
-
           <Grid sm={3} justify="center">
             <Flex align={"center"} justify={"center"}>
               <AcmeLogo />
               <Text weight={"semibold"} span size={"$lg"}>
-                Company 1
+                Trainer 1
               </Text>
             </Flex>
           </Grid>
@@ -61,7 +89,7 @@ export const Gallery = () => {
             <Flex align={"center"}>
               <AcmeLogo />{" "}
               <Text weight={"semibold"} span size={"$lg"}>
-                Company 2
+                Trainer 2
               </Text>
             </Flex>
           </Grid>
@@ -69,7 +97,7 @@ export const Gallery = () => {
             <Flex align={"center"}>
               <AcmeLogo />{" "}
               <Text weight={"semibold"} span size={"$lg"}>
-                Company 3
+                Trainer 3
               </Text>
             </Flex>
           </Grid>
@@ -77,14 +105,13 @@ export const Gallery = () => {
             <Flex align={"center"}>
               <AcmeLogo />{" "}
               <Text weight={"semibold"} span size={"$lg"}>
-                Company 4
+                Trainer 4
               </Text>
             </Flex>
           </Grid>
         </Grid.Container>
       </Flex>
 
-      <PhotoGallery />
       <Divider
         css={{ position: "absolute", inset: "0p", left: "0", mt: "$5" }}
       />
