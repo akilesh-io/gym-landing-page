@@ -112,64 +112,6 @@ export const Footer = () => {
                      </Box>
                   </Box>
                </Flex>
-               <Flex
-                  css={{gap: '$5', w: '250px'}}
-                  direction={'column'}
-                  align={'center'}
-               >
-                  <Text h5>Legal</Text>
-                  <Box as={'ul'} css={{gap: '$5', listStyle: 'none'}}>
-                     <Box as={'li'}>
-                        <Text span css={{color: '$accents8'}}>
-                           First Link
-                        </Text>
-                     </Box>
-                     <Box as={'li'}>
-                        <Text span css={{color: '$accents8'}}>
-                           Second Link
-                        </Text>
-                     </Box>
-                     <Box as={'li'}>
-                        <Text span css={{color: '$accents8'}}>
-                           Third Link
-                        </Text>
-                     </Box>
-                     <Box as={'li'}>
-                        <Text span css={{color: '$accents8'}}>
-                           Forth Link
-                        </Text>
-                     </Box>
-                  </Box>
-               </Flex>
-               <Flex
-                  css={{gap: '$5', w: '250px'}}
-                  direction={'column'}
-                  align={'center'}
-               >
-                  <Text h5>Press</Text>
-                  <Box as={'ul'} css={{gap: '$5', listStyle: 'none'}}>
-                     <Box as={'li'}>
-                        <Text span css={{color: '$accents8'}}>
-                           First Link
-                        </Text>
-                     </Box>
-                     <Box as={'li'}>
-                        <Text span css={{color: '$accents8'}}>
-                           Second Link
-                        </Text>
-                     </Box>
-                     <Box as={'li'}>
-                        <Text span css={{color: '$accents8'}}>
-                           Third Link
-                        </Text>
-                     </Box>
-                     <Box as={'li'}>
-                        <Text span css={{color: '$accents8'}}>
-                           Forth Link
-                        </Text>
-                     </Box>
-                  </Box>
-               </Flex>
             </Flex>
             <Box
                css={{
@@ -228,7 +170,7 @@ export const Footer = () => {
                      }}
                   >
                      <Text span css={{color: '$accents8'}}>
-                        © Copyright 2021 Acme Inc.
+                        © Copyright 2021 The Boss Gym.
                      </Text>
                   </Flex>
                </Flex>

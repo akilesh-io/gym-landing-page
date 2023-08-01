@@ -53,6 +53,7 @@ export const Hero = () => {
                   >
                      for{' '}
                   </Text>
+                  <br />
                   <Text
                      h1
                      css={{
