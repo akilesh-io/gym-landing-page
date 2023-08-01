@@ -25,7 +25,7 @@ export const Membership = () => {
       >
         <Flex direction={"column"} align={"center"}>
           <Text span css={{ color: "$blue600" }}>
-            Awesome Feature
+            Membership
           </Text>
           <Text h2>Flexible Plans</Text>
 
@@ -74,7 +74,7 @@ export const Membership = () => {
               <Text css={{ display: "contents", color: "$accents8" }}>
               {isMonthly ? "/mo" : "/yr"}
               </Text>
-              <Button css={{ mt: "$7", mb: "$12" }}>Join Us</Button>
+              <Button css={{ mt: "$7", mb: "$12" }} >Join Us</Button>
 
               <Divider />
               <Box as={"ul"}>
