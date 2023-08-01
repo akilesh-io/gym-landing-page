@@ -16,7 +16,7 @@ import { GithubIcon } from "../icons/GithubIcon";
 export const Nav = () => {
   const { setTheme } = useNextTheme();
   const { isDark, type } = useTheme();
-  const collapseItems = ["Home", "Gallery", "Pricing", "Contact"];
+  const collapseItems = ["Home", "Gallery", "Membership", "Contact"];
   return (
     <Navbar
       isBordered
