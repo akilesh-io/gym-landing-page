@@ -34,7 +34,7 @@ export const Gallery = () => {
           size={"$lg"}
         >
           Our work speaks for itself. Check out our gallery below to see what
-          we've been up to.
+          we been up to.
         </Text>
       </Flex>
 
