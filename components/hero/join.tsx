@@ -180,11 +180,11 @@ export function Join() {
   return (
     <>
       <div
+        id="all"
         style={{
           display: "flex",
           position: "absolute",
           justifyContent: "center",
-          alignItems: "center",
           width: "10rem",
           height: "10rem",
           transitionProperty: "all",
@@ -194,14 +194,14 @@ export function Join() {
           left: "50%",
           transform: "translateX(-50%)",
         }}
-        >
+      >
         {/* align bottom center */}
         <style>
           {`
             #circle {
                animation: circle 15s infinite linear;
-
             }
+
             @keyframes circle {
                0% {
                   transform: rotate(0deg);

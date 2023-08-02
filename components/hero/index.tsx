@@ -146,20 +146,10 @@ export const Hero = () => {
           </Flex>
         </Box>
       </Flex>
-      <Flex
-        css={{
-          gap: "$3",
-          px: "$6",
-          flexDirection: "row",
-          alignContent: "end",
-          justifyContent: "end",
-          alignItems: "end",
-          width: "100%",
-        }}
-        justify={"center"}
-      >
+
+        <a style={{display:"flex",alignItems:"end"}} href="#trainers">
           <Join />
-      </Flex>
+        </a>
     </div>
   );
 };
