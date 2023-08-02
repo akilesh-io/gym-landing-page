@@ -3,6 +3,7 @@ import React from "react";
 import { AcmeLogo } from "../navbar/logo";
 import { Flex } from "../styles/flex";
 import PhotoGallery from "./PhotoGallery";
+import { Insta } from "./insta";
 
 export const Gallery = () => {
   return (
@@ -60,7 +61,7 @@ export const Gallery = () => {
           },
         }}
       >
-        <Text h3 css={{ textAlign: "center" }}>
+        <Text id="trainers" h3 css={{ textAlign: "center" }}>
           Our Trainers
         </Text>
         <Grid.Container
@@ -112,6 +113,17 @@ export const Gallery = () => {
         </Grid.Container>
       </Flex>
 
+      <div
+        style={{
+          margin: "8px",
+          maxWidth: "700px",
+          display: "block",
+          marginLeft: "auto",
+          marginRight: "auto",
+        }}
+      >
+      <Insta />
+      </div>
       <Divider
         css={{ position: "absolute", inset: "0p", left: "0", mt: "$5" }}
       />
