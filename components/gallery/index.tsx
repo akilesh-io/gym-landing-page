@@ -32,8 +32,8 @@ export const Gallery = () => {
           weight="normal"
           size={"$lg"}
         >
-          We have worked with many peoples and have a lot of experience in this
-          field. Here are some of our success.
+          Our work speaks for itself. Check out our gallery below to see what
+          we've been up to.
         </Text>
       </Flex>
 
@@ -46,7 +46,7 @@ export const Gallery = () => {
           },
         }}
       >
-      <PhotoGallery />
+        <PhotoGallery />
       </Container>
 
       <Flex

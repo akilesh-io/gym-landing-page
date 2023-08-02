@@ -9,7 +9,8 @@ export const Contact = () => {
       <Flex
         id="contact"
         css={{
-          py: "$20",
+          pt: "$20",
+          pb: "$8",
           px: "$6",
         }}
         justify={"center"}
@@ -21,7 +22,7 @@ export const Contact = () => {
           span
           css={{
             color: "$accents8",
-            pb: "$15",
+            pb: "$10",
             textAlign: "center",
           }}
         >
@@ -41,7 +42,6 @@ export const Contact = () => {
           span
           css={{
             color: "$accents8",
-            pb: "$15",
             textAlign: "center",
             display: "flex",
             alignItems: "center",
@@ -57,8 +57,6 @@ export const Contact = () => {
           </svg>{" "}
           <a href="tel:+91 9659587467">+91 9659587467</a>
         </Text>
-
-        <Button>Button</Button>
       </Flex>
 
       <div

@@ -52,15 +52,7 @@ export const Hero = () => {
                 display: "inline",
               }}
             >
-              We Sculpt{" "}
-            </Text>
-            <Text
-              h1
-              css={{
-                display: "inline",
-              }}
-            >
-              Your{" "}
+              We Sculpt Your{" "}
             </Text>
             <br />
             <Text
@@ -147,9 +139,9 @@ export const Hero = () => {
         </Box>
       </Flex>
 
-        <a style={{display:"flex",alignItems:"end"}} href="#trainers">
-          <Join />
-        </a>
+      <a style={{ display: "flex", alignItems: "end" }} href="#trainers">
+        <Join />
+      </a>
     </div>
   );
 };
