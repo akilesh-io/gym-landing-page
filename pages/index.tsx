@@ -22,8 +22,8 @@ const Home: NextPage = () => {
       <Box as="main">
         <Hero />
         <Gallery />
-        <Features1 />
-        <Features2 />
+        {/* <Features1 /> */}
+        {/* <Features2 /> */}
         <Features3 />
         <Testimonials />
         <Statistics />

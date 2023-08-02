@@ -11,11 +11,7 @@
       width: 1000,
       height: 450,
     },
-    {
-      src: "https://gitlab.com/akilesh_io/the-boss-gym/-/raw/main/public/3.jpg",
-      width: 1080,
-      height: 1080,
-    },
+
     {
       src: "https://gitlab.com/akilesh_io/the-boss-gym/-/raw/main/public/4.jpg",
       width: 1440,
