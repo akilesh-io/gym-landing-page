@@ -4,74 +4,22 @@ import { CheckIcon } from "../icons/CheckIcon";
 import { Box } from "../styles/box";
 import { Flex } from "../styles/flex";
 import { TypeAnimation } from "react-type-animation";
-import { LearnUs, Arrow } from "./learn";
+import { Join } from "./join";
+
 export const Hero = () => {
   return (
-    <>
-      <div
-        style={{
-          display: "flex",
-          position: "absolute",
-          justifyContent: "center",
-          alignItems: "center",
-          width: "10rem",
-          height: "10rem",
-          transitionProperty: "all",
-          transitionTimingFunction: "cubic-bezier(0.4, 0, 0.2, 1)",
-          transitionDuration: "300ms",
-          borderRadius: "9999px",
-        }}
-      >
-        <style>
-          {`
-            #circle {
-               animation: circle 15s infinite linear;
-
-            }
-            @keyframes circle {
-               0% {
-                  transform: rotate(0deg);
-               }
-               100% {
-                  transform: rotate(360deg);
-               }
-               }
-            `}
-        </style>
-        <div
-          style={{
-            display: "flex",
-            position: "absolute",
-            justifyContent: "center",
-            alignItems: "center",
-            width: "10rem",
-            height: "10rem",
-            transitionProperty: "all",
-            transitionTimingFunction: "cubic-bezier(0.4, 0, 0.2, 1)",
-            transitionDuration: "300ms",
-            borderRadius: "9999px",
-          }}
-          id="circle"
-        >
-          <LearnUs />
-        </div>
-        <div
-          style={{
-            display: "flex",
-            position: "absolute",
-            justifyContent: "center",
-            alignItems: "center",
-            width: "10rem",
-            height: "10rem",
-            transitionProperty: "all",
-            transitionTimingFunction: "cubic-bezier(0.4, 0, 0.2, 1)",
-            transitionDuration: "300ms",
-            borderRadius: "9999px",
-          }}
-        >
-          <Arrow />
-        </div>
-      </div>
+    <div
+      style={{
+        backgroundImage: `url(bw.jpg)`,
+        backgroundPosition: "center",
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+        paddingLeft: "10%",
+        width: "100vw",
+        height: "100vh",
+        display: "flex",
+      }}
+    >
       <Flex
         css={{
           gap: "$3",
@@ -79,12 +27,8 @@ export const Hero = () => {
           flexDirection: "column",
           alignContent: "center",
           justifyContent: "center",
-          alignItems: "center",
+          alignItems: "start",
           width: "100%",
-          "@sm": {
-            flexDirection: "row",
-            mt: "$20",
-          },
         }}
         justify={"center"}
       >
@@ -201,20 +145,21 @@ export const Hero = () => {
             </Flex>
           </Flex>
         </Box>
-        <Box
-          css={{
-            "& img": {
-              width: "775px",
-              objectFit: "contain",
-            },
-          }}
-        >
-          <img src="mock.jpg" />
-        </Box>
       </Flex>
-      <Divider
-        css={{ position: "absolute", inset: "0p", left: "0", mt: "$10" }}
-      />
-    </>
+      <Flex
+        css={{
+          gap: "$3",
+          px: "$6",
+          flexDirection: "row",
+          alignContent: "end",
+          justifyContent: "end",
+          alignItems: "end",
+          width: "100%",
+        }}
+        justify={"center"}
+      >
+          <Join />
+      </Flex>
+    </div>
   );
 };
