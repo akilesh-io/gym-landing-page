@@ -2,46 +2,55 @@
 
   const pic = [
     {
-      src: "https://gitlab.com/akilesh_io/the-boss-gym/-/raw/main/public/1.jpg",
+      src: "/1.jpg",
       width: 1124,
       height: 750,
     },
     {
-      src: "https://gitlab.com/akilesh_io/the-boss-gym/-/raw/main/public/2.jpg",
+      src: "/2.jpg",
       width: 1000,
       height: 450,
     },
-
     {
-      src: "https://gitlab.com/akilesh_io/the-boss-gym/-/raw/main/public/4.jpg",
+      src: "/3.jpg",
       width: 1440,
       height: 1440,
     },
     {
-      src: "https://gitlab.com/akilesh_io/the-boss-gym/-/raw/main/public/5.jpg",
+      src: "/4.jpg",
+      width: 1440,
+      height: 1440,
+    },
+    {
+      src: "/5.jpg",
       width: 1080,
       height: 1080,
     },
     {
-      src: "https://gitlab.com/akilesh_io/the-boss-gym/-/raw/main/public/6.jpg",
+      src: "/6.jpg",
       width: 1080,
       height: 1350,
     },
     {
-      src: "https://gitlab.com/akilesh_io/the-boss-gym/-/raw/main/public/7.jpg",
+      src: "/7.jpg",
       width: 1080,
       height: 1080,
     },
     {
-      src: "https://gitlab.com/akilesh_io/the-boss-gym/-/raw/main/public/8.jpg",
+      src: "/8.jpg",
       width: 1080,
       height: 566,
     },
-    // {
-    //   src: "https://gitlab.com/akilesh_io/the-boss-gym/-/raw/main/public/9.jpg",
-    //   width: 694,
-    //   height: 694,
-    // },
+    {
+      src: "/9.jpg",
+      width: 1080,
+      height: 566,
+    },
+    {
+      src: "/10.jpg",
+      width: 1080,
+      height: 566,
+    },
   ];
   
 export const photos = pic.map((photo) => ({

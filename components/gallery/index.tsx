@@ -28,7 +28,6 @@ export const Gallery = () => {
             color: "$accents8",
             maxWidth: "800px",
             textAlign: "center",
-            paddingBottom: "20px",
           }}
           weight="normal"
           size={"$lg"}
@@ -40,7 +39,7 @@ export const Gallery = () => {
 
       <Container
         css={{
-          pt: "$20",
+          pt: "$15",
           px: "$6",
           "@lg": {
             px: "$64",
