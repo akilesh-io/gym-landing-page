@@ -13,6 +13,8 @@ import { useTheme as useNextTheme } from "next-themes";
 import { useTheme } from "@nextui-org/react";
 import { GithubIcon } from "../icons/GithubIcon";
 import { Pko } from "./pko";
+import Image from "next/image";
+import shield from "../../public/shield.png";
 
 export const Nav = () => {
   const { setTheme } = useNextTheme();
@@ -21,13 +23,13 @@ export const Nav = () => {
   return (
     <>
       <div
-          style={{            
-            position: "absolute",
-            top: "0",
-            left: "50%",
-            transform: "translate(-50%, 0%)",
-            zIndex: 1000,
-          }}
+        style={{
+          position: "absolute",
+          top: "0",
+          left: "50%",
+          transform: "translate(-50%, 0%)",
+          zIndex: 1000,
+        }}
       >
         <Pko></Pko>
       </div>
@@ -42,6 +44,15 @@ export const Nav = () => {
         }}
       >
         <Navbar.Brand>
+          <Image
+            src="https://img.icons8.com/material-outlined/96/FAB005/shield.png"
+            alt="shield"
+            width={30}
+            height={30}
+            style={{
+              marginRight: "0.5rem",
+            }}
+          />
           <Text b color="warning">
             THE BOSS GYM
           </Text>
