@@ -5,7 +5,7 @@ import { Box } from "../styles/box";
 import { Flex } from "../styles/flex";
 import Lottie from "lottie-react";
 import lift from "./lift.json";
-import  run  from "./run";
+import  run  from "./run.json";
 
 export const Features3 = () => {
   return (
