@@ -60,7 +60,7 @@ export const Features3 = () => {
                     offer a variety of cardio classes.
                   </Text>
 
-                  <Flex css={{ justifyContent: "center" }}>
+                  <Flex css={{ justifyContent: "center", width: "87%" }}>
                     <Lottie animationData={run} />
                   </Flex>
                 </Flex>
@@ -77,7 +77,7 @@ export const Features3 = () => {
                     Strength training is a great way to build muscle and burn
                     fat.
                   </Text>
-                  <Flex css={{ justifyContent: "center" }}>
+                  <Flex css={{ justifyContent: "center", width: "100%" }}>
                     <Lottie animationData={lift} />
                   </Flex>
                 </Flex>
