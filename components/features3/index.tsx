@@ -3,6 +3,9 @@ import React from "react";
 import { BoxIcon } from "../icons/BoxIcon";
 import { Box } from "../styles/box";
 import { Flex } from "../styles/flex";
+import Lottie from "lottie-react";
+import lift from "./lift.json";
+import  run  from "./run";
 
 export const Features3 = () => {
   return (
@@ -56,6 +59,10 @@ export const Features3 = () => {
                     Cardio is a great way to burn calories and lose weight. We
                     offer a variety of cardio classes.
                   </Text>
+
+                  <Flex css={{ justifyContent: "center" }}>
+                    <Lottie animationData={run} />
+                  </Flex>
                 </Flex>
               </Flex>
             </Card.Body>
@@ -70,6 +77,9 @@ export const Features3 = () => {
                     Strength training is a great way to build muscle and burn
                     fat.
                   </Text>
+                  <Flex css={{ justifyContent: "center" }}>
+                    <Lottie animationData={lift} />
+                  </Flex>
                 </Flex>
               </Flex>
             </Card.Body>
