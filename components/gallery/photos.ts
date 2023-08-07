@@ -9,13 +9,13 @@
     },
     {
       src: "/2.jpg",
-      width: 750,
-      height: 1124,
+      width: 1080,
+      height: 1080,
     },
     {
       src: "/3.jpg",
-      width: 750,
-      height: 1124,
+      width: 1520,
+      height: 1011,
     },
     // {
     //   src: "/4.jpg",
