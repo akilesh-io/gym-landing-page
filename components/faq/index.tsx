@@ -19,7 +19,7 @@ export const Faq = () => {
         direction={"column"}
       >
         <Flex align={"center"} direction={"column"}>
-          <Text span css={{ color: "$blue600" }}>
+          <Text span css={{ color: "$yellow600" }}>
             BMI
           </Text>
           <Text h2>BMI Calculator</Text>

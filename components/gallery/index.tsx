@@ -20,7 +20,7 @@ export const Gallery = () => {
           },
         }}
       >
-        <Text h2 css={{ textAlign: "center" }}>
+        <Text h2 css={{ textAlign: "center", color: "$yellow600" }}>
           Gallery
         </Text>
         <Text
@@ -60,7 +60,7 @@ export const Gallery = () => {
           },
         }}
       >
-        <Text id="trainers" h3 css={{ textAlign: "center" }}>
+        <Text id="trainers" h2 css={{ textAlign: "center", color: "$yellow600" }}>
           Our Trainers
         </Text>
         <Grid.Container

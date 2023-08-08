@@ -24,21 +24,16 @@ export const Membership = () => {
         align={"center"}
       >
         <Flex direction={"column"} align={"center"}>
-          <Text span css={{ color: "$blue600" }}>
+          <Text h2 css={{ color: "$yellow600" }}>
             Membership
           </Text>
-          <Text h2>Flexible Plans</Text>
 
           {/* aligh content in center */}
           <Flex css={{ gap: "$9", mt: "$4" }} align={"center"}>
-            <Text span css={{ color: "$accents8"}}>
+            <Text span css={{ color: "$accents8" }}>
               Monthly
             </Text>
-            <Switch
-            shadow
-            color="warning"
-            onChange={handleChange}
-            />
+            <Switch shadow color="warning" onChange={handleChange} />
             <Text span css={{ color: "$accents8" }}>
               Yearly
             </Text>
@@ -54,27 +49,28 @@ export const Membership = () => {
             <Card.Header>
               <Grid.Container css={{ pl: "$6" }}>
                 <Grid xs={12}>
-                  <Text h4 css={{ lineHeight: "$xs" }}>
+                  <Text h3 css={{ lineHeight: "$xs" }}>
                     Basic
                   </Text>
                 </Grid>
                 <Grid xs={12}>
-                  <Text css={{ color: "$accents8" }}>
+                  {/* <Text css={{ color: "$accents8" }}>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
                     condimentum, nisl ut aliquam lacinia, elit
-                  </Text>
+                  </Text> */}
                 </Grid>
               </Grid.Container>
             </Card.Header>
             <Card.Body>
               <Text css={{ display: "contents" }} h2>
-                {isMonthly ? "₹700" : 
-                "₹6300" }{" "}
+                {isMonthly ? "₹700" : "₹6300"}{" "}
               </Text>
               <Text css={{ display: "contents", color: "$accents8" }}>
-              {isMonthly ? "/mo" : "/yr"}
+                {isMonthly ? "/mo" : "/yr"}
               </Text>
-              <Button css={{ mt: "$7", mb: "$12" }} >Join Us</Button>
+              <Button color={"secondary"} css={{ mt: "$7", mb: "$12" }}>
+                Join Us{" "}
+              </Button>
 
               <Divider />
               <Box as={"ul"}>
@@ -90,7 +86,6 @@ export const Membership = () => {
                     1 Website
                   </Text>
                 </Flex>
-
               </Box>
             </Card.Body>
           </Card>
@@ -98,24 +93,26 @@ export const Membership = () => {
             <Card.Header>
               <Grid.Container css={{ pl: "$6" }}>
                 <Grid xs={12}>
-                  <Text h4 css={{ lineHeight: "$xs" }}>
+                  <Text h3 css={{ lineHeight: "$xs" }}>
                     Pro
                   </Text>
                 </Grid>
                 <Grid xs={12}>
-                  <Text css={{ color: "$accents8" }}>
+                  {/* <Text css={{ color: "$accents8" }}>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
                     condimentum, nisl ut aliquam lacinia, elit
-                  </Text>
+                  </Text> */}
                 </Grid>
               </Grid.Container>
             </Card.Header>
-            <Card.Body >
+            <Card.Body>
               <Text css={{ display: "contents" }} h2>
                 ₹0{" "}
               </Text>
               <Text css={{ display: "contents", color: "$accents8" }}>/mo</Text>
-              <Button css={{ mt: "$7", mb: "$12" }}>Join Us</Button>
+              <Button color={"warning"} css={{ mt: "$7", mb: "$12" }}>
+                Join Us
+              </Button>
 
               <Divider />
               <Box as={"ul"}>

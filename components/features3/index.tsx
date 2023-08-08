@@ -5,7 +5,7 @@ import { Box } from "../styles/box";
 import { Flex } from "../styles/flex";
 import Lottie from "lottie-react";
 import lift from "./lift.json";
-import  run  from "./run.json";
+import run from "./run.json";
 
 export const Features3 = () => {
   return (
@@ -24,10 +24,9 @@ export const Features3 = () => {
             pt: "$20",
           }}
         >
-          <Text span css={{ color: "$blue600" }}>
-            Classes & Programs
+          <Text h2 css={{ color: "$yellow600" }}>
+            Our Programs
           </Text>
-          <Text h3>Our Programs</Text>
           <Text
             span
             css={{
@@ -52,15 +51,16 @@ export const Features3 = () => {
           <Card css={{ mw: "500px" }}>
             <Card.Body>
               <Flex css={{ gap: "0.5rem" }}>
-                <BoxIcon />
                 <Flex direction={"column"}>
-                  <Text h5>Cardio</Text>
+                  <Text h3 css={{ color: "$yellow600" }}>
+                    Cardio
+                  </Text>
                   <Text span>
                     Cardio is a great way to burn calories and lose weight. We
                     offer a variety of cardio classes.
                   </Text>
 
-                  <Flex css={{ justifyContent: "center", width: "87%" }}>
+                  <Flex css={{ justifyContent: "center", width: "82%" }}>
                     <Lottie animationData={run} />
                   </Flex>
                 </Flex>
@@ -70,9 +70,10 @@ export const Features3 = () => {
           <Card css={{ mw: "500px" }}>
             <Card.Body>
               <Flex css={{ gap: "0.5rem" }}>
-                <BoxIcon />
                 <Flex direction={"column"}>
-                  <Text h5>Strength Training</Text>
+                  <Text h3 css={{ color: "$yellow600" }}>
+                    Strength Training
+                  </Text>
                   <Text span>
                     Strength training is a great way to build muscle and burn
                     fat.

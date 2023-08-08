@@ -2,21 +2,21 @@
 
 
   const pic = [
-    {
-      src: "/1.jpg",
-      width: 1124,
-      height: 750,
-    },
-    {
-      src: "/2.jpg",
-      width: 1080,
-      height: 1080,
-    },
-    {
-      src: "/3.jpg",
-      width: 1520,
-      height: 1011,
-    },
+    // {
+    //   src: "/1.jpg",
+    //   width: 1124,
+    //   height: 750,
+    // },
+    // {
+    //   src: "/2.jpg",
+    //   width: 1080,
+    //   height: 1080,
+    // },
+    // {
+    //   src: "/3.jpg",
+    //   width: 1520,
+    //   height: 1011,
+    // },
     // {
     //   src: "/4.jpg",
     //   width: 1520,
