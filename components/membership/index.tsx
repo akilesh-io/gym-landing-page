@@ -77,13 +77,13 @@ export const Membership = () => {
                 <Flex as={"li"} css={{ py: "$2", gap: "$2" }} align={"center"}>
                   <CheckIcon />
                   <Text span css={{ color: "$accents8" }}>
-                    1 Team Members
+                  {isMonthly ? "No free membership" : "Free 3 months membership"}
                   </Text>
                 </Flex>
                 <Flex as={"li"} css={{ py: "$2", gap: "$2" }} align={"center"}>
                   <CheckIcon />
                   <Text span css={{ color: "$accents8" }}>
-                    1 Website
+                  {isMonthly ? "/mo" : "/yr"}
                   </Text>
                 </Flex>
               </Box>
@@ -110,7 +110,7 @@ export const Membership = () => {
                 ₹0{" "}
               </Text>
               <Text css={{ display: "contents", color: "$accents8" }}>/mo</Text>
-              <Button color={"warning"} css={{ mt: "$7", mb: "$12" }}>
+              <Button color={"secondary"} css={{ mt: "$7", mb: "$12" }}>
                 Join Us
               </Button>
 
