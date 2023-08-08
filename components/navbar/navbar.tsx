@@ -12,7 +12,7 @@ import { AcmeLogo } from "./logo";
 import { useTheme as useNextTheme } from "next-themes";
 import { useTheme } from "@nextui-org/react";
 import { GithubIcon } from "../icons/GithubIcon";
-import { Pko } from "./pko";
+//import { Pko } from "./pko";
 import Image from "next/image";
 import shield from "../../public/shield.png";
 
@@ -31,7 +31,7 @@ export const Nav = () => {
           zIndex: 1000,
         }}
       >
-        <Pko></Pko>
+        {/* <Pko></Pko> */}
       </div>
       <Navbar
         isBordered
