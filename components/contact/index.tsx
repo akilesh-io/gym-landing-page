@@ -17,7 +17,7 @@ export const Contact = () => {
         direction={"column"}
         align={"center"}
       >
-        <Text h3>Contact</Text>
+        <Text h3 color="warning">Contact</Text>
         <Text
           span
           css={{

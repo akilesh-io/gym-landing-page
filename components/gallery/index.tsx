@@ -22,7 +22,7 @@ export const Gallery = () => {
         }}
       >
         <Text h2 css={{ textAlign: "center", color: "$yellow600" }}>
-          Gallery
+          Equipment
         </Text>
         <Text
           css={{

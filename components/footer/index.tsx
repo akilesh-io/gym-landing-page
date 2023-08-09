@@ -115,7 +115,7 @@ export const Footer = () => {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://www.instagram.com/the_boss_gym_/"
+                  href="https://www.facebook.com/prabhash.boss.7"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

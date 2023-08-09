@@ -1,4 +1,4 @@
-import { Button, Divider, Input, Text } from "@nextui-org/react";
+import { Container, Button, Divider, Input, Text } from "@nextui-org/react";
 import React from "react";
 import { CheckIcon } from "../icons/CheckIcon";
 import { Box } from "../styles/box";
@@ -8,8 +8,8 @@ import { Join } from "./join";
 
 export const Hero = () => {
   return (
-    <div
-      style={{
+    <Container
+      css={{
         backgroundImage: `url(bw.jpg)`,
         backgroundPosition: "center",
         backgroundSize: "cover",
@@ -18,6 +18,16 @@ export const Hero = () => {
         width: "100vw",
         height: "100vh",
         display: "flex",
+        "@media screen and (max-width: 600px)": {
+          backgroundImage: `url(bw.jpg)`,
+          backgroundPosition: "right",
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
+          paddingLeft: "10%",
+          width: "100vw",
+          height: "100vh",
+          display: "flex",
+        },
       }}
     >
       <Flex
@@ -142,6 +152,6 @@ export const Hero = () => {
       <a style={{ display: "flex", alignItems: "end" }} href="#trainers">
         <Join />
       </a>
-    </div>
+    </Container>
   );
 };

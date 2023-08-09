@@ -52,26 +52,26 @@ export const Membership = () => {
                     New Member
                   </Text>
                 </Grid>
+
                 <Grid xs={12}>
-                  {/* <Text css={{ color: "$accents8" }}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    condimentum, nisl ut aliquam lacinia, elit
-                  </Text> */}
+                  <Text h6 css={{ display: "contents" }}>
+                    ₹500{" "}
+                  </Text>
+                  <Text css={{ display: "contents", color: "$accents8" }}>
+                    Registration Fee
+                  </Text>
                 </Grid>
               </Grid.Container>
             </Card.Header>
             <Card.Body>
               <Text css={{ display: "contents" }} h2>
-                {isMonthly ? "₹700" : "₹6800"}{" "}
+                {isMonthly ? "₹700" :  "₹6800"}{" "}
               </Text>
               <Text css={{ display: "contents", color: "$accents8" }}>
                 {isMonthly ? "/mo" : "/yr"}
               </Text>
               <br />
-              <Text h6 css={{ display: "contents" }}>₹500{" "}</Text>
-              <Text css={{ display: "contents", color: "$accents8" }}>
-                Registration Fee
-              </Text>
+
               <Button color={"secondary"} css={{ mt: "$7", mb: "$12" }}>
                 Join Us{" "}
               </Button>
@@ -92,6 +92,18 @@ export const Membership = () => {
                     {isMonthly ? "Personal Training" : "Personal Training"}
                   </Text>
                 </Flex>
+                <Flex as={"li"} css={{ py: "$2", gap: "$2" }} align={"center"}>
+                  <CheckIcon />
+                  <Text span css={{ color: "$accents8" }}>
+                    Strength Training
+                  </Text>
+                </Flex>
+                <Flex as={"li"} css={{ py: "$2", gap: "$2" }} align={"center"}>
+                  <CheckIcon />
+                  <Text span css={{ color: "$accents8" }}>
+                    Cardio Training
+                  </Text>
+                </Flex>
               </Box>
             </Card.Body>
           </Card>
@@ -104,10 +116,9 @@ export const Membership = () => {
                   </Text>
                 </Grid>
                 <Grid xs={12}>
-                  {/* <Text css={{ color: "$accents8" }}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    condimentum, nisl ut aliquam lacinia, elit
-                  </Text> */}
+                  <Text css={{ display: "contents", color: "$accents8" }}>
+                    No Registration Fee
+                  </Text>
                 </Grid>
               </Grid.Container>
             </Card.Header>
@@ -115,7 +126,10 @@ export const Membership = () => {
               <Text css={{ display: "contents" }} h2>
                 {isMonthly ? "₹700" : "₹6800"}{" "}
               </Text>
-              <Text css={{ display: "contents", color: "$accents8" }}>/mo</Text>
+              <Text css={{ display: "contents", color: "$accents8" }}>
+                {isMonthly ? "/mo" : "/yr"}{" "}
+              </Text>
+
               <Button color={"secondary"} css={{ mt: "$7", mb: "$12" }}>
                 Join Us
               </Button>
@@ -125,13 +139,27 @@ export const Membership = () => {
                 <Flex as={"li"} css={{ py: "$2", gap: "$2" }} align={"center"}>
                   <CheckIcon />
                   <Text span css={{ color: "$accents8" }}>
-                    Online Classes
+                    {isMonthly
+                      ? "No free membership"
+                      : "Free 3 months membership"}
                   </Text>
                 </Flex>
                 <Flex as={"li"} css={{ py: "$2", gap: "$2" }} align={"center"}>
                   <CheckIcon />
                   <Text span css={{ color: "$accents8" }}>
                     Personal Training
+                  </Text>
+                </Flex>
+                <Flex as={"li"} css={{ py: "$2", gap: "$2" }} align={"center"}>
+                  <CheckIcon />
+                  <Text span css={{ color: "$accents8" }}>
+                    Strength Training
+                  </Text>
+                </Flex>
+                <Flex as={"li"} css={{ py: "$2", gap: "$2" }} align={"center"}>
+                  <CheckIcon />
+                  <Text span css={{ color: "$accents8" }}>
+                    Cardio Training
                   </Text>
                 </Flex>
               </Box>
