@@ -49,7 +49,7 @@ export const Membership = () => {
               <Grid.Container css={{ pl: "$6" }}>
                 <Grid xs={12}>
                   <Text h3 css={{ lineHeight: "$xs" }}>
-                    Basic
+                    New Member
                   </Text>
                 </Grid>
                 <Grid xs={12}>
@@ -62,10 +62,15 @@ export const Membership = () => {
             </Card.Header>
             <Card.Body>
               <Text css={{ display: "contents" }} h2>
-                {isMonthly ? "₹700" : "₹6300"}{" "}
+                {isMonthly ? "₹700" : "₹6800"}{" "}
               </Text>
               <Text css={{ display: "contents", color: "$accents8" }}>
                 {isMonthly ? "/mo" : "/yr"}
+              </Text>
+              <br />
+              <Text h6 css={{ display: "contents" }}>₹500{" "}</Text>
+              <Text css={{ display: "contents", color: "$accents8" }}>
+                Registration Fee
               </Text>
               <Button color={"secondary"} css={{ mt: "$7", mb: "$12" }}>
                 Join Us{" "}
@@ -76,13 +81,15 @@ export const Membership = () => {
                 <Flex as={"li"} css={{ py: "$2", gap: "$2" }} align={"center"}>
                   <CheckIcon />
                   <Text span css={{ color: "$accents8" }}>
-                  {isMonthly ? "No free membership" : "Free 3 months membership"}
+                    {isMonthly
+                      ? "No free membership"
+                      : "Free 3 months membership"}
                   </Text>
                 </Flex>
                 <Flex as={"li"} css={{ py: "$2", gap: "$2" }} align={"center"}>
                   <CheckIcon />
                   <Text span css={{ color: "$accents8" }}>
-                  {isMonthly ? "Personal Training" : "Personal Training"}
+                    {isMonthly ? "Personal Training" : "Personal Training"}
                   </Text>
                 </Flex>
               </Box>
@@ -93,7 +100,7 @@ export const Membership = () => {
               <Grid.Container css={{ pl: "$6" }}>
                 <Grid xs={12}>
                   <Text h3 css={{ lineHeight: "$xs" }}>
-                    Pro
+                    Existing Member
                   </Text>
                 </Grid>
                 <Grid xs={12}>
@@ -106,7 +113,7 @@ export const Membership = () => {
             </Card.Header>
             <Card.Body>
               <Text css={{ display: "contents" }} h2>
-                ₹0{" "}
+                {isMonthly ? "₹700" : "₹6800"}{" "}
               </Text>
               <Text css={{ display: "contents", color: "$accents8" }}>/mo</Text>
               <Button color={"secondary"} css={{ mt: "$7", mb: "$12" }}>
