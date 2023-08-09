@@ -4,12 +4,12 @@
 import PhotoAlbum from "react-photo-album";
 
 import NextJsImage from "./NextJsImage";
-import {photos} from "./photos";
+import {trans} from "./photos";
 
 export default function TransGallery() {
     return (
         <PhotoAlbum
-            photos={photos}
+            photos={trans}
             layout="rows"
             renderPhoto={NextJsImage}
             defaultContainerWidth={1200}
