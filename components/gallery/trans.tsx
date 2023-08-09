@@ -1,3 +1,4 @@
+
 "use client";
 
 import PhotoAlbum from "react-photo-album";
@@ -5,7 +6,7 @@ import PhotoAlbum from "react-photo-album";
 import NextJsImage from "./NextJsImage";
 import {photos} from "./photos";
 
-export default function PhotoGallery() {
+export default function TransGallery() {
     return (
         <PhotoAlbum
             photos={photos}

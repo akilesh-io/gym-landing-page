@@ -69,6 +69,33 @@
     },
   ];
   
+  const tform = [
+    {
+      src: "/1.jpg",
+      width: 1124,
+      height: 750,
+    },
+    {
+      src: "/2.jpg",
+      width: 1080,
+      height: 1080,
+    },
+    {
+      src: "/3.jpg",
+      width: 1520,
+      height: 1011,
+    },
+    {
+      src: "/4.jpg",
+      width: 1520,
+      height: 1027,
+    },
+    {
+      src: "/5.jpg",
+      width: 4233,
+      height: 2816,
+    },
+  ];
 export const photos = pic.map((photo) => ({
     src: photo.src,
     width: photo.width,
@@ -83,29 +110,17 @@ export const photos = pic.map((photo) => ({
     }),
   }));
 
-  export default photos;
-
-
-
-    // {
-    //     src: a,
-    //     width: 694,
-    //     height: 694
-    // },
-    // {
-    //     src: b,
-    //     width: 4,
-    //     height: 3
-    // }, 
-    // {
-    //     src: c,
-    //     width: 4,
-    //     height: 3
-    // },
-    // {
-    //     src: d,
-    //     width: 4,
-    //     height: 3
-    // }
-
+  export const trans = tform.map((photo) => ({
+    src: photo.src,
+    width: photo.width,
+    height: photo.height,
+    srcSet: breakpoints.map((breakpoint) => {
+      const height = Math.round((photo.height / photo.width) * breakpoint);
+      return {
+        src: photo.src,
+        width: breakpoint,
+        height,
+      };  
+    }),
+  }));
 

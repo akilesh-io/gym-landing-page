@@ -7,7 +7,6 @@ import { Switch } from "@nextui-org/react";
 
 export const Membership = () => {
   const [isMonthly, setIsMonthly] = useState(true);
-  const [isModalOpen, setIsModalOpen] = useState(false);
 
   const handleChange = () => {
     setIsMonthly(!isMonthly);
@@ -83,7 +82,7 @@ export const Membership = () => {
                 <Flex as={"li"} css={{ py: "$2", gap: "$2" }} align={"center"}>
                   <CheckIcon />
                   <Text span css={{ color: "$accents8" }}>
-                  {isMonthly ? "/mo" : "/yr"}
+                  {isMonthly ? "Personal Training" : "Personal Training"}
                   </Text>
                 </Flex>
               </Box>
@@ -119,13 +118,13 @@ export const Membership = () => {
                 <Flex as={"li"} css={{ py: "$2", gap: "$2" }} align={"center"}>
                   <CheckIcon />
                   <Text span css={{ color: "$accents8" }}>
-                    5 TB Transfer
+                    Online Classes
                   </Text>
                 </Flex>
                 <Flex as={"li"} css={{ py: "$2", gap: "$2" }} align={"center"}>
                   <CheckIcon />
                   <Text span css={{ color: "$accents8" }}>
-                    Email Support
+                    Personal Training
                   </Text>
                 </Flex>
               </Box>

@@ -3,6 +3,7 @@ import React from "react";
 import { AcmeLogo } from "../navbar/logo";
 import { Flex } from "../styles/flex";
 import PhotoGallery from "./PhotoGallery";
+import TransGallery from "./trans";
 import { Insta } from "./insta";
 
 export const Gallery = () => {
@@ -32,8 +33,7 @@ export const Gallery = () => {
           weight="normal"
           size={"$lg"}
         >
-          Our work speaks for itself. Check out our gallery below to see what
-          we been up to.
+          In our gallery you can see some of the equipment we have in our gym.
         </Text>
       </Flex>
 
@@ -60,7 +60,11 @@ export const Gallery = () => {
           },
         }}
       >
-        <Text id="trainers" h2 css={{ textAlign: "center", color: "$yellow600" }}>
+        <Text
+          id="trainers"
+          h2
+          css={{ textAlign: "center", color: "$yellow600" }}
+        >
           Our Trainers
         </Text>
         <Grid.Container
@@ -121,8 +125,49 @@ export const Gallery = () => {
           marginRight: "auto",
         }}
       >
-      <Insta />
+        <Insta />
       </div>
+
+      <Flex
+        id="gallery"
+        direction={"column"}
+        align={"center"}
+        css={{
+          pt: "$20",
+          px: "$6",
+          "@md": {
+            px: "$64",
+          },
+        }}
+      >
+        <Text h2 css={{ textAlign: "center", color: "$yellow600" }}>
+          Transformations
+        </Text>
+        <Text
+          css={{
+            color: "$accents8",
+            maxWidth: "800px",
+            textAlign: "center",
+          }}
+          weight="normal"
+          size={"$lg"}
+        >
+          People who have transformed their bodies with us.
+        </Text>
+      </Flex>
+
+      <Container
+        css={{
+          pt: "$15",
+          px: "$6",
+          "@lg": {
+            px: "$64",
+          },
+        }}
+      >
+        <TransGallery />
+      </Container>
+
       <Divider
         css={{ position: "absolute", inset: "0p", left: "0", mt: "$5" }}
       />
