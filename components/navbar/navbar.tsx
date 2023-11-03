@@ -1,24 +1,16 @@
 import {
-  Button,
   Dropdown,
   Link,
   Navbar,
-  Switch,
   Text,
 } from "@nextui-org/react";
 import React from "react";
 import { icons } from "./icons";
-import { AcmeLogo } from "./logo";
-import { useTheme as useNextTheme } from "next-themes";
-import { useTheme } from "@nextui-org/react";
-import { GithubIcon } from "../icons/GithubIcon";
-//import { Pko } from "./pko";
+
 import Image from "next/image";
-import shield from "../../public/shield.png";
 
 export const Nav = () => {
-  const { setTheme } = useNextTheme();
-  const { isDark, type } = useTheme();
+
   const collapseItems = ["Home", "Gallery", "Membership", "Contact"];
   return (
     <>
@@ -31,7 +23,6 @@ export const Nav = () => {
           zIndex: 1000,
         }}
       >
-        {/* <Pko></Pko> */}
       </div>
       <Navbar
         isBordered
@@ -177,22 +168,6 @@ export const Nav = () => {
             </Navbar.CollapseItem>
           ))}
         </Navbar.Collapse>
-        {/* <Navbar.Content>
-
-            <Navbar.Item>
-               <Button auto flat href="#">
-                  Start free trial
-               </Button>
-            </Navbar.Item>
-            <Navbar.Item hideIn={'xs'}>
-               <Switch
-                  checked={isDark}
-                  onChange={(e) =>
-                     setTheme(e.target.checked ? 'dark' : 'light')
-                  }
-               />
-            </Navbar.Item>
-         </Navbar.Content> */}
       </Navbar>
     </>
   );
