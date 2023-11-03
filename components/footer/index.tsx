@@ -32,7 +32,13 @@ export const Footer = () => {
             }}
           >
             <Flex css={{ gap: "$5" }} direction={"row"} align={"center"}>
+            <Box
+                css={{
+                  alignContent: "center",
+                }}
+              >
               <AcmeLogo />
+              </Box>
               <Box
                 css={{
                   gap: "$5",
@@ -51,7 +57,7 @@ export const Footer = () => {
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 48 48"
-                    width="35px"
+                    width="34px"
                   >
                     <radialGradient
                       id="yOrnnhliCrdS2gy~4tD8ma"
@@ -60,13 +66,13 @@ export const Footer = () => {
                       r="44.899"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop offset="0" stop-color="#fd5" />
-                      <stop offset=".328" stop-color="#ff543f" />
-                      <stop offset=".348" stop-color="#fc5245" />
-                      <stop offset=".504" stop-color="#e64771" />
-                      <stop offset=".643" stop-color="#d53e91" />
-                      <stop offset=".761" stop-color="#cc39a4" />
-                      <stop offset=".841" stop-color="#c837ab" />
+                      <stop offset="0" stopColor="#fd5" />
+                      <stop offset=".328" stopColor="#ff543f" />
+                      <stop offset=".348" stopColor="#fc5245" />
+                      <stop offset=".504" stopColor="#e64771" />
+                      <stop offset=".643" stopColor="#d53e91" />
+                      <stop offset=".761" stopColor="#cc39a4" />
+                      <stop offset=".841" stopColor="#c837ab" />
                     </radialGradient>
                     <path
                       fill="url(#yOrnnhliCrdS2gy~4tD8ma)"
@@ -80,11 +86,11 @@ export const Footer = () => {
                       gradientTransform="matrix(1 0 0 .6663 0 1.849)"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop offset="0" stop-color="#4168c9" />
+                      <stop offset="0" stopColor="#4168c9" />
                       <stop
                         offset=".999"
-                        stop-color="#4168c9"
-                        stop-opacity="0"
+                        stopColor="#4168c9"
+                        stopOpacity="0"
                       />
                     </radialGradient>
                     <path
@@ -130,8 +136,8 @@ export const Footer = () => {
                       y2="43.432"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop offset="0" stop-color="#0d61a9" />
-                      <stop offset="1" stop-color="#16528c" />
+                      <stop offset="0" stopColor="#0d61a9" />
+                      <stop offset="1" stopColor="#16528c" />
                     </linearGradient>
                     <path
                       fill="url(#awSgIinfw5_FS5MLHI~A9a)"
@@ -199,7 +205,7 @@ export const Footer = () => {
                 <Text span css={{ color: "$accents8" }}>
                   Site by
                 </Text>
-                <a href="https://www.akilesh.io/" target="_blank">
+                <a href="https://www.akilesh.io/" target="_blank" style={{color: "orange"}} >
                   akilesh_io
                 </a>
               </Flex>

@@ -51,11 +51,6 @@ const tform = [
     height: 1080,
   },
   {
-    src: "/2.jpg",
-    width: 1080,
-    height: 1080,
-  },
-  {
     src: "/3.jpg",
     width: 1676,
     height: 1080,

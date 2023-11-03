@@ -6,18 +6,18 @@ const LearnUs = () => (
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
-    <g clip-path="url(#clip0_1902_83)">
+    <g clipPath="url(#clip0_1902_83)">
       <path
         d="M71 139.443C109.076 139.443 139.943 108.576 139.943 70.5C139.943 32.4238 109.076 1.55701 71 1.55701C32.9238 1.55701 2.05702 32.4238 2.05702 70.5C2.05702 108.576 32.9238 139.443 71 139.443Z"
         stroke="url(#paint0_linear_1902_83)"
-        stroke-opacity="0.7"
-        stroke-width="2.814"
+        strokeOpacity="0.7"
+        strokeWidth="2.814"
       />
       <path
         d="M71.35 107.25C92.6129 107.25 109.85 90.0129 109.85 68.75C109.85 47.487 92.6129 30.25 71.35 30.25C50.087 30.25 32.85 47.487 32.85 68.75C32.85 90.0129 50.087 107.25 71.35 107.25Z"
         stroke="url(#paint1_linear_1902_83)"
-        stroke-opacity="0.7"
-        stroke-width="1.4"
+        strokeOpacity="0.7"
+        strokeWidth="1.4"
       />
       <path
         d="M18.15 75.75C20.083 75.75 21.65 74.183 21.65 72.25C21.65 70.317 20.083 68.75 18.15 68.75C16.217 68.75 14.65 70.317 14.65 72.25C14.65 74.183 16.217 75.75 18.15 75.75Z"
@@ -133,8 +133,8 @@ const LearnUs = () => (
         y2="140.85"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="white" stop-opacity="0.77" />
-        <stop offset="0.984375" stop-color="white" stop-opacity="0.18" />
+        <stop stopColor="white" stopOpacity="0.77" />
+        <stop offset="0.984375" stopColor="white" stopOpacity="0.18" />
       </linearGradient>
       <linearGradient
         id="paint1_linear_1902_83"
@@ -144,8 +144,8 @@ const LearnUs = () => (
         y2="107.95"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="white" stop-opacity="0.77" />
-        <stop offset="0.984375" stop-color="white" stop-opacity="0.18" />
+        <stop stopColor="white" stopOpacity="0.77" />
+        <stop offset="0.984375" stopColor="white" stopOpacity="0.18" />
       </linearGradient>
       <clipPath id="clip0_1902_83">
         <rect
@@ -168,8 +168,8 @@ const Arrow = () => (
     xmlns="http://www.w3.org/2000/svg"
   >
     <path
-      fill-rule="evenodd"
-      clip-rule="evenodd"
+      fillRule="evenodd"
+      clipRule="evenodd"
       d="M5.238 2.59398C5.238 1.40986 6.19791 0.449951 7.38202 0.449951H28.8219C29.3903 0.449951 29.9363 0.675843 30.3381 1.07792C30.7399 1.48 30.966 2.0253 30.966 2.59398V24.0336C30.966 25.218 30.0063 26.1777 28.8219 26.1777C27.6382 26.1777 26.6778 25.218 26.6778 24.0336V7.76999L4.61003 29.838C3.77276 30.6752 2.41525 30.6752 1.57798 29.838C0.74071 29.0008 0.74071 27.6428 1.57798 26.8056L23.6461 4.73794H7.38202C6.19791 4.73794 5.238 3.77803 5.238 2.59398Z"
       fill="white"
     />

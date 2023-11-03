@@ -1,7 +1,7 @@
 <svg width="142" height="141" viewBox="0 0 142 141" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_1902_83)">
-<path d="M71 139.443C109.076 139.443 139.943 108.576 139.943 70.5C139.943 32.4238 109.076 1.55701 71 1.55701C32.9238 1.55701 2.05702 32.4238 2.05702 70.5C2.05702 108.576 32.9238 139.443 71 139.443Z" stroke="url(#paint0_linear_1902_83)" stroke-opacity="0.7" stroke-width="2.814"/>
-<path d="M71.35 107.25C92.6129 107.25 109.85 90.0129 109.85 68.75C109.85 47.487 92.6129 30.25 71.35 30.25C50.087 30.25 32.85 47.487 32.85 68.75C32.85 90.0129 50.087 107.25 71.35 107.25Z" stroke="url(#paint1_linear_1902_83)" stroke-opacity="0.7" stroke-width="1.4"/>
+<g clipPath="url(#clip0_1902_83)">
+<path d="M71 139.443C109.076 139.443 139.943 108.576 139.943 70.5C139.943 32.4238 109.076 1.55701 71 1.55701C32.9238 1.55701 2.05702 32.4238 2.05702 70.5C2.05702 108.576 32.9238 139.443 71 139.443Z" stroke="url(#paint0_linear_1902_83)" strokeOpacity="0.7" strokeWidth="2.814"/>
+<path d="M71.35 107.25C92.6129 107.25 109.85 90.0129 109.85 68.75C109.85 47.487 92.6129 30.25 71.35 30.25C50.087 30.25 32.85 47.487 32.85 68.75C32.85 90.0129 50.087 107.25 71.35 107.25Z" stroke="url(#paint1_linear_1902_83)" strokeOpacity="0.7" strokeWidth="1.4"/>
 <path d="M18.15 75.75C20.083 75.75 21.65 74.183 21.65 72.25C21.65 70.317 20.083 68.75 18.15 68.75C16.217 68.75 14.65 70.317 14.65 72.25C14.65 74.183 16.217 75.75 18.15 75.75Z" fill="white"/>
 <path d="M124.55 75.75C126.483 75.75 128.05 74.183 128.05 72.25C128.05 70.317 126.483 68.75 124.55 68.75C122.617 68.75 121.05 70.317 121.05 72.25C121.05 74.183 122.617 75.75 124.55 75.75Z" fill="white"/>
 <path d="M14.3796 50.8236L14.8466 49.541L24.4538 53.0566L23.9868 54.3392L14.3796 50.8236Z" fill="white"/>
@@ -31,12 +31,12 @@
 </g>
 <defs>
 <linearGradient id="paint0_linear_1902_83" x1="71" y1="0.150007" x2="71" y2="140.85" gradientUnits="userSpaceOnUse">
-<stop stop-color="white" stop-opacity="0.77"/>
-<stop offset="0.984375" stop-color="white" stop-opacity="0.18"/>
+<stop stopColor="white" stopOpacity="0.77"/>
+<stop offset="0.984375" stopColor="white" stopOpacity="0.18"/>
 </linearGradient>
 <linearGradient id="paint1_linear_1902_83" x1="71.35" y1="29.55" x2="71.35" y2="107.95" gradientUnits="userSpaceOnUse">
-<stop stop-color="white" stop-opacity="0.77"/>
-<stop offset="0.984375" stop-color="white" stop-opacity="0.18"/>
+<stop stopColor="white" stopOpacity="0.77"/>
+<stop offset="0.984375" stopColor="white" stopOpacity="0.18"/>
 </linearGradient>
 <clipPath id="clip0_1902_83">
 <rect width="140.7" height="140.7" fill="white" transform="translate(0.650024 0.150024)"/>

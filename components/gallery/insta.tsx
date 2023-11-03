@@ -8,7 +8,7 @@ export function Insta() {
           src="https://www.instagram.com/the_boss_gym_/embed"
           height={400}
           //  @ts-ignore
-          frameborder="0"
+          frameBorder="0"
           scrolling="no"
           allowtransparency="true"
         ></iframe>

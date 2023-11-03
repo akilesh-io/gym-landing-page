@@ -123,7 +123,7 @@ export const Hero = () => {
           >
             <Flex
               css={{
-                color: "$accents7",
+                color: "$accents9",
                 alignItems: "center",
               }}
             >
@@ -131,7 +131,7 @@ export const Hero = () => {
             </Flex>
             <Flex
               css={{
-                color: "$accents7",
+                color: "$accents9",
                 alignItems: "center",
               }}
             >
@@ -139,7 +139,7 @@ export const Hero = () => {
             </Flex>
             <Flex
               css={{
-                color: "$accents7",
+                color: "$accents9",
                 alignItems: "center",
               }}
             >

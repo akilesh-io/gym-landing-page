@@ -1,10 +1,16 @@
-import { Container, Divider, Grid, Text } from "@nextui-org/react";
+import { Container, Divider, Grid, Text, Card } from "@nextui-org/react";
 import React from "react";
 import { AcmeLogo } from "../navbar/logo";
 import { Flex } from "../styles/flex";
 import PhotoGallery from "./PhotoGallery";
 import TransGallery from "./trans";
 import { Insta } from "./insta";
+import Image from "next/image";
+
+import a from "../../public/a.jpeg";
+import b from "../../public/b.jpeg";
+import c from "../../public/c.jpeg";
+import d from "../../public/d.jpeg";
 
 export const Gallery = () => {
   return (
@@ -54,10 +60,6 @@ export const Gallery = () => {
         align={"center"}
         css={{
           pt: "$20",
-          px: "$6",
-          "@md": {
-            px: "$64",
-          },
         }}
       >
         <Text
@@ -68,7 +70,7 @@ export const Gallery = () => {
           Our Trainers
         </Text>
         <Grid.Container
-          gap={6}
+          gap={1}
           alignItems="center"
           justify="center"
           css={{
@@ -81,37 +83,137 @@ export const Gallery = () => {
             },
           }}
         >
-          <Grid sm={3} justify="center">
+          <Grid justify="center">
             <Flex align={"center"} justify={"center"}>
               <AcmeLogo />
               <Text weight={"semibold"} span size={"$lg"}>
-                Trainer 1
+                Master
               </Text>
             </Flex>
+            <Image
+              src={a}
+              width={350}
+              alt="Master"
+              style={{ paddingTop: "1rem" }}
+            />{" "}
+            <Card
+              css={{
+                width: "100%",
+                height: "100%",
+                borderRadius: "0px",
+                boxShadow: "0 5px 25px -5px rgba(0, 0, 0, 0.1)",
+                transition: "all .25s ease-in-out",
+                "&:hover": {
+                  boxShadow: "0 5px 25px -5px rgba(0, 0, 0, 0.2)",
+                  transform: "translateY(-5px)",
+                },
+              }}
+            >
+              <Flex align={"center"} justify={"center"}>
+                <Text weight={"semibold"} span size={"$lg"}>
+                  Prabhash
+                </Text>
+              </Flex>
+            </Card>
           </Grid>
-          <Grid sm={3} justify="center">
-            <Flex align={"center"}>
+          <Grid justify="center">
+            <Flex align={"center"} justify={"center"}>
               <AcmeLogo />{" "}
               <Text weight={"semibold"} span size={"$lg"}>
-                Trainer 2
+                Trainer
               </Text>
             </Flex>
+            <Image
+              src={b}
+              width={350}
+              alt="Trainer"
+              style={{ paddingTop: "1rem" }}
+            />{" "}
+            <Card
+              css={{
+                width: "100%",
+                height: "100%",
+                borderRadius: "0px",
+                boxShadow: "0 5px 25px -5px rgba(0, 0, 0, 0.1)",
+                transition: "all .25s ease-in-out",
+                "&:hover": {
+                  boxShadow: "0 5px 25px -5px rgba(0, 0, 0, 0.2)",
+                  transform: "translateY(-5px)",
+                },
+              }}
+            >
+              <Flex align={"center"} justify={"center"}>
+                <Text weight={"semibold"} span size={"$lg"}>
+                Kaliraj
+                </Text>
+              </Flex>
+            </Card>
           </Grid>
-          <Grid sm={3} justify="center">
-            <Flex align={"center"}>
+          <Grid justify="center">
+            <Flex align={"center"} justify={"center"}>
               <AcmeLogo />{" "}
               <Text weight={"semibold"} span size={"$lg"}>
-                Trainer 3
+                Trainer
               </Text>
             </Flex>
+            <Image
+              src={c}
+              width={350}
+              alt="Trainer"
+              style={{ paddingTop: "1rem" }}
+            />{" "}
+            <Card
+              css={{
+                width: "100%",
+                height: "100%",
+                borderRadius: "0px",
+                boxShadow: "0 5px 25px -5px rgba(0, 0, 0, 0.1)",
+                transition: "all .25s ease-in-out",
+                "&:hover": {
+                  boxShadow: "0 5px 25px -5px rgba(0, 0, 0, 0.2)",
+                  transform: "translateY(-5px)",
+                },
+              }}
+            >
+              <Flex align={"center"} justify={"center"}>
+                <Text weight={"semibold"} span size={"$lg"}>
+                Mohammad ishaq
+                </Text>
+              </Flex>
+            </Card>
           </Grid>
-          <Grid sm={3} justify="center">
-            <Flex align={"center"}>
+          <Grid justify="center">
+            <Flex align={"center"} justify={"center"}>
               <AcmeLogo />{" "}
               <Text weight={"semibold"} span size={"$lg"}>
-                Trainer 4
+                Trainer
               </Text>
             </Flex>
+            <Image
+              src={d}
+              width={350}
+              alt="Trainer"
+              style={{ paddingTop: "1rem" }}
+            />{" "}
+            <Card
+              css={{
+                width: "100%",
+                height: "100%",
+                borderRadius: "0px",
+                boxShadow: "0 5px 25px -5px rgba(0, 0, 0, 0.1)",
+                transition: "all .25s ease-in-out",
+                "&:hover": {
+                  boxShadow: "0 5px 25px -5px rgba(0, 0, 0, 0.2)",
+                  transform: "translateY(-5px)",
+                },
+              }}
+            >
+              <Flex align={"center"} justify={"center"}>
+                <Text weight={"semibold"} span size={"$lg"}>
+                Sakthivel
+                </Text>
+              </Flex>
+            </Card>
           </Grid>
         </Grid.Container>
       </Flex>
