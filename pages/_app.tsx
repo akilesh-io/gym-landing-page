@@ -1,15 +1,9 @@
 import '../styles/globals.css';
 
-import type {AppProps} from 'next/app';
-import {createTheme, NextUIProvider} from '@nextui-org/react';
-import {ThemeProvider as NextThemesProvider} from 'next-themes';
-
-// const lightTheme = createTheme({
-//    type: 'light',
-//    theme: {
-//       colors: {},
-//    },
-// });
+import type { AppProps } from 'next/app';
+import { createTheme, NextUIProvider } from '@nextui-org/react';
+import { ThemeProvider as NextThemesProvider } from 'next-themes';
+import Script from 'next/script';
 
 const darkTheme = createTheme({
    type: 'dark',
@@ -18,21 +12,34 @@ const darkTheme = createTheme({
    },
 });
 
-function MyApp({Component, pageProps}: AppProps) {
+function MyApp({ Component, pageProps }: AppProps) {
    return (
-      <NextThemesProvider
-         attribute="class"
-         defaultTheme = "dark"
-         themes ={['dark']}
-         value={{
-           //light: lightTheme.className,
-            dark: darkTheme.className,
-         }}
-      >
-         <NextUIProvider>
-            <Component {...pageProps} />
-         </NextUIProvider>
-      </NextThemesProvider>
+      <>
+
+         <Script src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GA_MEASUREMENT_ID}`} />
+         <Script id="google-analytics">
+            {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+ 
+          gtag('config', '${process.env.GA_MEASUREMENT_ID}');
+        `}
+         </Script>
+
+         <NextThemesProvider
+            attribute="class"
+            defaultTheme="dark"
+            themes={['dark']}
+            value={{
+               dark: darkTheme.className,
+            }}
+         >
+            <NextUIProvider>
+               <Component {...pageProps} />
+            </NextUIProvider>
+         </NextThemesProvider>
+      </>
    );
 }
 
