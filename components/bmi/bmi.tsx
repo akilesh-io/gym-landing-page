@@ -1,4 +1,4 @@
-import { Card, Grid, Text, Button, Row } from "@nextui-org/react";
+import { Card, Text, } from "@nextui-org/react";
 
 export default function Bmi() {
   return (

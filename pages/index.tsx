@@ -10,7 +10,7 @@ import { Features3 } from "../components/features3";
 import { Testimonials } from "../components/tesminonials";
 import { Statistics } from "../components/statistics";
 import { Membership } from "../components/membership";
-import { Faq } from "../components/faq";
+import { BmiContext } from "../components/bmi";
 import { Contact } from "../components/contact";
 import { Footer } from "../components/footer";
 import { Construstion } from "../components/construstion";
@@ -28,7 +28,7 @@ const Home: NextPage = () => {
         {/* <Testimonials /> */}
         <Statistics />
         <Membership />
-        {/* <Faq /> */}
+        {/* <BmiContext /> */}
         <Contact />
         <Footer />
         {/* <Construstion /> */}

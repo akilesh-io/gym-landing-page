@@ -1,15 +1,12 @@
-import { Button, Divider, Text } from "@nextui-org/react";
+import { Divider, Text } from "@nextui-org/react";
 import React from "react";
-import { BoxIcon } from "../icons/BoxIcon";
-import { Box } from "../styles/box";
 import { Flex } from "../styles/flex";
 
 import Bmi from "./bmi";
 
-export const Faq = () => {
+export const BmiContext = () => {
   return (
     <>
-      {/* <Bmi />  */}
       <Flex
         css={{
           py: "$20",
