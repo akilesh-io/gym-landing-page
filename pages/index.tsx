@@ -4,9 +4,9 @@ import { Layout } from "../components/navbar/layout";
 import { Hero } from "../components/hero";
 import { Gallery } from "../components/gallery";
 import { Box } from "../components/styles/box";
-import { Features1 } from "../components/features1";
-import { Features2 } from "../components/features2";
-import { Features3 } from "../components/features3";
+import { Animation } from "../components/animation";
+// import { Features1 } from "../components/features1";
+// import { Features2 } from "../components/features2";
 import { Testimonials } from "../components/tesminonials";
 import { Statistics } from "../components/statistics";
 import { Membership } from "../components/membership";
@@ -20,18 +20,18 @@ const Home: NextPage = () => {
     <Layout>
       <Nav />
       <Box as="main">
+        {/* <Construstion /> */}
         <Hero />
         <Gallery />
+        <Animation />
         {/* <Features1 /> */}
         {/* <Features2 /> */}
-        <Features3 />
         {/* <Testimonials /> */}
         <Statistics />
         <Membership />
         {/* <BmiContext /> */}
         <Contact />
         <Footer />
-        {/* <Construstion /> */}
       </Box>
     </Layout>
   );

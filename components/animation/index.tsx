@@ -1,13 +1,12 @@
 import { Card, Divider, Text } from "@nextui-org/react";
 import React from "react";
-import { BoxIcon } from "../icons/BoxIcon";
 import { Box } from "../styles/box";
 import { Flex } from "../styles/flex";
 import Lottie from "lottie-react";
 import lift from "./lift.json";
 import run from "./run.json";
 
-export const Features3 = () => {
+export const Animation = () => {
   return (
     <>
       <Box

@@ -1,8 +1,8 @@
-import {Button, Divider, Text} from '@nextui-org/react';
+import { Divider, Text } from '@nextui-org/react';
 import React from 'react';
-import {BoxIcon} from '../icons/BoxIcon';
-import {FeatureIcon} from '../icons/FeatureIcon';
-import {Flex} from '../styles/flex';
+import { BoxIcon } from '../icons/BoxIcon';
+import { FeatureIcon } from '../icons/FeatureIcon';
+import { Flex } from '../styles/flex';
 
 export const Features2 = () => {
    return (
@@ -27,10 +27,10 @@ export const Features2 = () => {
             }}
          >
             <Flex direction="column" align={'center'}>
-               <Text span css={{color: '$yellow600'}}>
-                  Awesome Feature
+               <Text span css={{ color: '$yellow600' }}>
+                  Feature
                </Text>
-               <Text h3>Your title here</Text>
+               <Text h3>Title 1</Text>
                <Text
                   span
                   css={{
@@ -38,10 +38,8 @@ export const Features2 = () => {
                      color: '$accents8',
                   }}
                >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  condimentum, nisl ut aliquam lacinia, nisl nisl aliquet nisl,
-                  nec tincidunt nisl lorem eu nunc. Sed euismod, nisl ut aliquam
-                  lacinia,
+                  Hello this is akilesh full stack web and app developer
+                  looking forward to work with you
                </Text>
 
                <Flex
@@ -60,7 +58,7 @@ export const Features2 = () => {
                      <BoxIcon />
                      <Flex direction={'column'}>
                         <Text h4 weight={'medium'}>
-                           Your title here
+                           Title 2
                         </Text>
                         <Text
                            span
@@ -69,9 +67,10 @@ export const Features2 = () => {
                               color: '$accents8',
                            }}
                         >
-                           Lorem ipsum dolor sit amet, consectetur adipiscing
-                           elit. Sed condimentum, nisl ut aliquam lacinia, nisl
-                           nisl aliquet nisl,
+                           Design can be art. Design can be aesthetics.
+                           Design is so simple,
+                           that is why it is so complicated.
+                           - Paul Rand
                         </Text>
                      </Flex>
                   </Flex>
@@ -84,7 +83,7 @@ export const Features2 = () => {
                      <BoxIcon />
                      <Flex direction={'column'}>
                         <Text h4 weight={'medium'}>
-                           Your title here
+                           Title 3
                         </Text>
                         <Text
                            span
@@ -93,9 +92,7 @@ export const Features2 = () => {
                               color: '$accents8',
                            }}
                         >
-                           Lorem ipsum dolor sit amet, consectetur adipiscing
-                           elit. Sed condimentum, nisl ut aliquam lacinia, nisl
-                           nisl aliquet nisl,
+                           Design is not for philosophy, its for life. - Issey Miyake
                         </Text>
                      </Flex>
                   </Flex>
@@ -107,7 +104,7 @@ export const Features2 = () => {
          </Flex>
 
          <Divider
-            css={{position: 'absolute', inset: '0p', left: '0', mt: '$5'}}
+            css={{ position: 'absolute', inset: '0p', left: '0', mt: '$5' }}
          />
       </>
    );

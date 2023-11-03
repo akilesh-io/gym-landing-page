@@ -1,9 +1,8 @@
-import {Divider, Grid, Text} from '@nextui-org/react';
+import { Divider, Text } from '@nextui-org/react';
 import React from 'react';
-import {BoxIcon} from '../icons/BoxIcon';
-import {FeatureIcon} from '../icons/FeatureIcon';
-import {Box} from '../styles/box';
-import {Flex} from '../styles/flex';
+import { BoxIcon } from '../icons/BoxIcon';
+import { FeatureIcon } from '../icons/FeatureIcon';
+import { Flex } from '../styles/flex';
 
 export const Features1 = () => {
    return (
@@ -27,8 +26,8 @@ export const Features1 = () => {
             }}
          >
             <Flex direction="column">
-               <Text span css={{color: '$yellow600'}}>
-                  Awesome Feature
+               <Text span css={{ color: '$yellow600' }}>
+                  Feature
                </Text>
                <Text h3>Your title here</Text>
                <Text
@@ -38,10 +37,7 @@ export const Features1 = () => {
                      color: '$accents8',
                   }}
                >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  condimentum, nisl ut aliquam lacinia, nisl nisl aliquet nisl,
-                  nec tincidunt nisl lorem eu nunc. Sed euismod, nisl ut aliquam
-                  lacinia,
+                  This is a description for the feature section.
                </Text>
 
                <Flex
@@ -53,7 +49,7 @@ export const Features1 = () => {
                   <BoxIcon />
                   <Flex direction={'column'}>
                      <Text h4 weight={'medium'}>
-                        Your title here
+                        Title 1
                      </Text>
                      <Text
                         span
@@ -62,9 +58,7 @@ export const Features1 = () => {
                            color: '$accents8',
                         }}
                      >
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Sed condimentum, nisl ut aliquam lacinia, nisl nisl
-                        aliquet nisl,
+                        Description 1
                      </Text>
                   </Flex>
                </Flex>
@@ -77,7 +71,7 @@ export const Features1 = () => {
                   <BoxIcon />
                   <Flex direction={'column'}>
                      <Text h4 weight={'medium'}>
-                        Your title here
+                        Title 2
                      </Text>
                      <Text
                         span
@@ -86,9 +80,7 @@ export const Features1 = () => {
                            color: '$accents8',
                         }}
                      >
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Sed condimentum, nisl ut aliquam lacinia, nisl nisl
-                        aliquet nisl,
+                        Description 2
                      </Text>
                   </Flex>
                </Flex>
@@ -101,7 +93,7 @@ export const Features1 = () => {
                   <BoxIcon />
                   <Flex direction={'column'}>
                      <Text h4 weight={'medium'}>
-                        Your title here
+                        Title 3
                      </Text>
                      <Text
                         span
@@ -110,9 +102,7 @@ export const Features1 = () => {
                            color: '$accents8',
                         }}
                      >
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Sed condimentum, nisl ut aliquam lacinia, nisl nisl
-                        aliquet nisl,
+                        Description 3
                      </Text>
                   </Flex>
                </Flex>
@@ -122,7 +112,7 @@ export const Features1 = () => {
             </Flex>
          </Flex>
          <Divider
-            css={{position: 'absolute', inset: '0p', left: '0', mt: '$5'}}
+            css={{ position: 'absolute', inset: '0p', left: '0', mt: '$5' }}
          />
       </>
    );

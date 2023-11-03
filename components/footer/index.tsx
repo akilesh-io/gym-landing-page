@@ -3,7 +3,6 @@ import React from "react";
 import { ShieldLogo } from "../navbar/logo";
 import { Box } from "../styles/box";
 import { Flex } from "../styles/flex";
-import Link from "next/link";
 
 export const Footer = () => {
   return (
@@ -52,7 +51,7 @@ export const Footer = () => {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://www.instagram.com/the_boss_gym_/"
+                  href="https://www.instagram.com/akilesh_io/"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -121,7 +120,7 @@ export const Footer = () => {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://www.facebook.com/prabhash.boss.7"
+                  href="https://www.facebook.com/hselikA"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -194,7 +193,7 @@ export const Footer = () => {
                 }}
               >
                 <Text span css={{ color: "$accents8" }}>
-                  © The Boss Gym. All rights reserved.
+                  © Gym Langing Page. All rights reserved.
                 </Text>
               </Flex>
               <Flex
