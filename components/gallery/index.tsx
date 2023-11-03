@@ -1,6 +1,6 @@
 import { Container, Divider, Grid, Text, Card } from "@nextui-org/react";
 import React from "react";
-import { AcmeLogo } from "../navbar/logo";
+import { ShieldLogo } from "../navbar/logo";
 import { Flex } from "../styles/flex";
 import PhotoGallery from "./PhotoGallery";
 import TransGallery from "./trans";
@@ -85,7 +85,7 @@ export const Gallery = () => {
         >
           <Grid justify="center">
             <Flex align={"center"} justify={"center"}>
-              <AcmeLogo />
+              <ShieldLogo />
               <Text weight={"semibold"} span size={"$lg"}>
                 Master
               </Text>
@@ -118,7 +118,7 @@ export const Gallery = () => {
           </Grid>
           <Grid justify="center">
             <Flex align={"center"} justify={"center"}>
-              <AcmeLogo />{" "}
+              <ShieldLogo />{" "}
               <Text weight={"semibold"} span size={"$lg"}>
                 Trainer
               </Text>
@@ -151,7 +151,7 @@ export const Gallery = () => {
           </Grid>
           <Grid justify="center">
             <Flex align={"center"} justify={"center"}>
-              <AcmeLogo />{" "}
+              <ShieldLogo />{" "}
               <Text weight={"semibold"} span size={"$lg"}>
                 Trainer
               </Text>
@@ -184,7 +184,7 @@ export const Gallery = () => {
           </Grid>
           <Grid justify="center">
             <Flex align={"center"} justify={"center"}>
-              <AcmeLogo />{" "}
+              <ShieldLogo />{" "}
               <Text weight={"semibold"} span size={"$lg"}>
                 Trainer
               </Text>
