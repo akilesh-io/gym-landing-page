@@ -100,17 +100,6 @@ export const Hero = () => {
           >
             Sweat like a boss live like a boss.
           </Text>
-
-          {/* <Flex
-                  css={{
-                     gap: '$8',
-                     pt: '$4',
-                  }}
-                  wrap={'wrap'}
-               >
-                  <Input placeholder="Enter your email address" size="lg" />
-                  <Button>Start Free Trial</Button>
-               </Flex> */}
           <Flex
             wrap={"wrap"}
             css={{

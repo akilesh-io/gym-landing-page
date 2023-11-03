@@ -92,7 +92,7 @@ export const Testimonials = () => {
                       color: "$yellow600",
                     }}
                   >
-                    Arun{" "}
+                    Prabas{" "}
                   </Text>
                 </Flex>
               </Flex>

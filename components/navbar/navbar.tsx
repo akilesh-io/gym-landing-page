@@ -6,7 +6,7 @@ import {
 } from "@nextui-org/react";
 import React from "react";
 import { icons } from "./icons";
-
+import { APP_NAME } from "../../constant/constants";
 import Image from "next/image";
 
 export const Nav = () => {
@@ -44,8 +44,9 @@ export const Nav = () => {
               marginRight: "0.5rem",
             }}
           />
+          {/* Capitalize APP_NAME */}
           <Text b color="warning">
-            THE BOSS GYM
+            {APP_NAME}
           </Text>
           <Navbar.Content
             hideIn="sm"

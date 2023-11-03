@@ -3,8 +3,13 @@ import React from "react";
 import { ShieldLogo } from "../navbar/logo";
 import { Box } from "../styles/box";
 import { Flex } from "../styles/flex";
+import { INSTAGRAM, FACEBOOK, APP_NAME } from "../../constant/constants";
 
 export const Footer = () => {
+
+  const insta = `https://www.instagram.com/${INSTAGRAM}`
+  const face = `https://www.facebook.com/${FACEBOOK}`
+
   return (
     <>
       <Flex
@@ -31,12 +36,12 @@ export const Footer = () => {
             }}
           >
             <Flex css={{ gap: "$5" }} direction={"row"} align={"center"}>
-            <Box
+              <Box
                 css={{
                   alignContent: "center",
                 }}
               >
-              <ShieldLogo />
+                <ShieldLogo />
               </Box>
               <Box
                 css={{
@@ -51,7 +56,7 @@ export const Footer = () => {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://www.instagram.com/akilesh_io/"
+                  href={insta}
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -120,7 +125,7 @@ export const Footer = () => {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://www.facebook.com/hselikA"
+                  href={face}
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -193,7 +198,7 @@ export const Footer = () => {
                 }}
               >
                 <Text span css={{ color: "$accents8" }}>
-                  © Gym Langing Page. All rights reserved.
+                  © {APP_NAME}. All rights reserved.
                 </Text>
               </Flex>
               <Flex
@@ -204,7 +209,7 @@ export const Footer = () => {
                 <Text span css={{ color: "$accents8" }}>
                   Site by
                 </Text>
-                <a href="https://www.akilesh.io/" target="_blank" style={{color: "orange"}} >
+                <a href="https://www.akilesh.io/" target="_blank" style={{ color: "orange" }} >
                   akilesh_io
                 </a>
               </Flex>
